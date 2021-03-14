@@ -1,0 +1,406 @@
+--wolfhub v2
+
+-- wolff#4838  on discord for suggestions,feedback etc
+
+
+-- Instances:
+
+local wolfhub = Instance.new("ScreenGui")
+local mainlol = Instance.new("Frame")
+local bg = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local bg2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local scripts = Instance.new("ScrollingFrame")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local DarkHub = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local OwlHub = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local KinxHub = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local BigPaintballUnlockAll = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Placeholder1 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Placeholder2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Placeholder3 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local lol = Instance.new("TextLabel")
+local bgtitle = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
+local version = Instance.new("TextLabel")
+local welcoemname = Instance.new("TextLabel")
+local FPSCounterText = Instance.new("TextLabel")
+
+--Properties:
+
+wolfhub.Name = "wolfhub"
+wolfhub.Parent = game.CoreGui
+
+mainlol.Name = "mainlol"
+mainlol.Parent = wolfhub
+mainlol.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mainlol.BackgroundTransparency = 1.000
+mainlol.Position = UDim2.new(0.166782007, 0, 0.28831169, 0)
+mainlol.Size = UDim2.new(0, 464, 0, 411)
+mainlol.ZIndex = 2
+
+bg.Name = "bg"
+bg.Parent = mainlol
+bg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+bg.BorderColor3 = Color3.fromRGB(27, 42, 53)
+bg.BorderSizePixel = 0
+bg.Position = UDim2.new(-0.00168451667, 0, 0.00544306636, 0)
+bg.Size = UDim2.new(0, 465, 0, 408)
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = bg
+
+bg2.Name = "bg2"
+bg2.Parent = mainlol
+bg2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+bg2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+bg2.BorderSizePixel = 0
+bg2.Position = UDim2.new(0.0246276204, 0, 0.113830119, 0)
+bg2.Size = UDim2.new(0, 440, 0, 349)
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = bg2
+
+scripts.Name = "scripts"
+scripts.Parent = bg2
+scripts.Active = true
+scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scripts.BackgroundTransparency = 1.000
+scripts.BorderSizePixel = 0
+scripts.Position = UDim2.new(0.00191962498, 0, -0.0282448493, 0)
+scripts.Size = UDim2.new(0, 439, 0, 355)
+scripts.BottomImage = ""
+scripts.TopImage = ""
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = scripts
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+InfiniteYield.Position = UDim2.new(0.01369863, 0, 0.0373950489, 0)
+InfiniteYield.Size = UDim2.new(0, 200, 0, 50)
+InfiniteYield.Font = Enum.Font.Gotham
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = InfiniteYield
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = scripts
+DarkHub.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+DarkHub.Position = UDim2.new(0.5, 0, 0.0373950489, 0)
+DarkHub.Size = UDim2.new(0, 200, 0, 50)
+DarkHub.Font = Enum.Font.Gotham
+DarkHub.Text = "Dark Hub"
+DarkHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.TextScaled = true
+DarkHub.TextSize = 14.000
+DarkHub.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = DarkHub
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = scripts
+OwlHub.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+OwlHub.Position = UDim2.new(0.0136986375, 0, 0.140592724, 0)
+OwlHub.Size = UDim2.new(0, 200, 0, 50)
+OwlHub.Font = Enum.Font.Gotham
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextScaled = true
+OwlHub.TextSize = 14.000
+OwlHub.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = OwlHub
+
+KinxHub.Name = "KinxHub"
+KinxHub.Parent = scripts
+KinxHub.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+KinxHub.Position = UDim2.new(0.5, 0, 0.140592724, 0)
+KinxHub.Size = UDim2.new(0, 200, 0, 50)
+KinxHub.Font = Enum.Font.Gotham
+KinxHub.Text = "Kinx Hub"
+KinxHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+KinxHub.TextScaled = true
+KinxHub.TextSize = 14.000
+KinxHub.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = KinxHub
+
+BigPaintballUnlockAll.Name = "BigPaintballUnlockAll"
+BigPaintballUnlockAll.Parent = scripts
+BigPaintballUnlockAll.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+BigPaintballUnlockAll.Position = UDim2.new(0.0136986375, 0, 0.240883425, 0)
+BigPaintballUnlockAll.Size = UDim2.new(0, 200, 0, 50)
+BigPaintballUnlockAll.Font = Enum.Font.Gotham
+BigPaintballUnlockAll.Text = "Big Paintball Unlock All"
+BigPaintballUnlockAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+BigPaintballUnlockAll.TextScaled = true
+BigPaintballUnlockAll.TextSize = 14.000
+BigPaintballUnlockAll.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = BigPaintballUnlockAll
+
+Placeholder1.Name = "Placeholder1"
+Placeholder1.Parent = scripts
+Placeholder1.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Placeholder1.Position = UDim2.new(0.5, 0, 0.240883425, 0)
+Placeholder1.Size = UDim2.new(0, 200, 0, 50)
+Placeholder1.Font = Enum.Font.Gotham
+Placeholder1.Text = "Placeholder"
+Placeholder1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Placeholder1.TextScaled = true
+Placeholder1.TextSize = 14.000
+Placeholder1.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = Placeholder1
+
+Placeholder2.Name = "Placeholder2"
+Placeholder2.Parent = scripts
+Placeholder2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Placeholder2.Position = UDim2.new(0.0136986375, 0, 0.344081104, 0)
+Placeholder2.Size = UDim2.new(0, 200, 0, 50)
+Placeholder2.Font = Enum.Font.Gotham
+Placeholder2.Text = "Placeholder"
+Placeholder2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Placeholder2.TextScaled = true
+Placeholder2.TextSize = 14.000
+Placeholder2.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = Placeholder2
+
+Placeholder3.Name = "Placeholder3"
+Placeholder3.Parent = scripts
+Placeholder3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Placeholder3.Position = UDim2.new(0.5, 0, 0.344081104, 0)
+Placeholder3.Size = UDim2.new(0, 200, 0, 50)
+Placeholder3.Font = Enum.Font.Gotham
+Placeholder3.Text = "Placeholder"
+Placeholder3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Placeholder3.TextScaled = true
+Placeholder3.TextSize = 14.000
+Placeholder3.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = Placeholder3
+
+lol.Name = "lol"
+lol.Parent = scripts
+lol.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lol.BackgroundTransparency = 1.000
+lol.Position = UDim2.new(0.0827313215, 0, 0.908445597, 0)
+lol.Rotation = 6.000
+lol.Size = UDim2.new(0, 365, 0, 43)
+lol.Font = Enum.Font.Gotham
+lol.Text = "in my room i beat my cock cock nutted in my sock sock bitch you better knock knock"
+lol.TextColor3 = Color3.fromRGB(255, 255, 255)
+lol.TextScaled = true
+lol.TextSize = 14.000
+lol.TextWrapped = true
+
+bgtitle.Name = "bgtitle"
+bgtitle.Parent = mainlol
+bgtitle.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+bgtitle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+bgtitle.BorderSizePixel = 0
+bgtitle.Position = UDim2.new(-0.00168451667, 0, 0.00468790531, 0)
+bgtitle.Size = UDim2.new(0, 464, 0, 37)
+
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = bgtitle
+
+title.Name = "title"
+title.Parent = bgtitle
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(0.0129310349, 0, -0.0270270277, 0)
+title.Size = UDim2.new(0, 141, 0, 36)
+title.Font = Enum.Font.GothamSemibold
+title.Text = "WolfHub "
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+title.TextXAlignment = Enum.TextXAlignment.Left
+
+version.Name = "version"
+version.Parent = bgtitle
+version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+version.BackgroundTransparency = 1.000
+version.Position = UDim2.new(0.316925585, 0, 0.159705088, 0)
+version.Rotation = 20.000
+version.Size = UDim2.new(0, 36, 0, 31)
+version.Font = Enum.Font.GothamSemibold
+version.Text = "V2.0"
+version.TextColor3 = Color3.fromRGB(252, 255, 21)
+version.TextScaled = true
+version.TextSize = 14.000
+version.TextWrapped = true
+version.TextXAlignment = Enum.TextXAlignment.Left
+
+welcoemname.Name = "welcoem name"
+welcoemname.Parent = bgtitle
+welcoemname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+welcoemname.BackgroundTransparency = 1.000
+welcoemname.Position = UDim2.new(0.409597993, 0, 0.0515969768, 0)
+welcoemname.Size = UDim2.new(0, 273, 0, 38)
+welcoemname.Font = Enum.Font.Gotham
+welcoemname.Text = "bro u havent even loaded give roblox some time to load when you execute :/"
+welcoemname.TextColor3 = Color3.fromRGB(255, 255, 255)
+welcoemname.TextScaled = true
+welcoemname.TextSize = 14.000
+welcoemname.TextWrapped = true
+
+FPSCounterText.Name = "FPSCounterText"
+FPSCounterText.Parent = mainlol
+FPSCounterText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FPSCounterText.BackgroundTransparency = 1.000
+FPSCounterText.Position = UDim2.new(-0.401857316, 0, -0.620963037, 0)
+FPSCounterText.Size = UDim2.new(0.147553146, 0, 0.0806387961, 0)
+FPSCounterText.Font = Enum.Font.GothamSemibold
+FPSCounterText.Text = "0 FPS"
+FPSCounterText.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSCounterText.TextScaled = true
+FPSCounterText.TextSize = 14.000
+FPSCounterText.TextStrokeTransparency = 0.000
+FPSCounterText.TextWrapped = true
+FPSCounterText.TextXAlignment = Enum.TextXAlignment.Right
+
+-- Scripts:
+
+local function PUBX_fake_script() -- wolfhub.LocalScript 
+	local script = Instance.new('LocalScript', wolfhub)
+
+	local a = Instance.new("BlurEffect", workspace.CurrentCamera)
+	local b = script.Parent.mainlol
+	b:TweenPosition(UDim2.new(0.463, 0, 0.387, 0), "In", "Quad", 0.5)
+	wait(0.6)
+	a:Destroy()
+end
+coroutine.wrap(PUBX_fake_script)()
+local function CWYNTXE_fake_script() -- mainlol.drag 
+	local script = Instance.new('LocalScript', mainlol)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0.1, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(CWYNTXE_fake_script)()
+local function FIUUBL_fake_script() -- InfiniteYield.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(FIUUBL_fake_script)()
+local function JJGLV_fake_script() -- DarkHub.LocalScript 
+	local script = Instance.new('LocalScript', DarkHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://darkhub.xyz/remote-script.lua'), true))()
+	end)
+end
+coroutine.wrap(JJGLV_fake_script)()
+local function TZCGWV_fake_script() -- OwlHub.LocalScript 
+	local script = Instance.new('LocalScript', OwlHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+	end)
+end
+coroutine.wrap(TZCGWV_fake_script)()
+local function AWAM_fake_script() -- KinxHub.LocalScript 
+	local script = Instance.new('LocalScript', KinxHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/kinx/main/loader",true))()
+	end)
+end
+coroutine.wrap(AWAM_fake_script)()
+local function CLGL_fake_script() -- BigPaintballUnlockAll.LocalScript 
+	local script = Instance.new('LocalScript', BigPaintballUnlockAll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Singularity5490/bigpaintball/main/unlockall.lua"), true))()
+	end)
+end
+coroutine.wrap(CLGL_fake_script)()
+local function URNL_fake_script() -- welcoemname.LocalScript 
+	local script = Instance.new('LocalScript', welcoemname)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(URNL_fake_script)()
+local function NAMFS_fake_script() -- FPSCounterText.FPSCounterScript 
+	local script = Instance.new('LocalScript', FPSCounterText)
+
+	local fps = 0
+	local rs = game:GetService'RunService'
+	
+	function updateFPS()
+		fps = fps + 1
+	end
+	
+	rs.RenderStepped:connect(updateFPS)
+	
+	while wait'1' do
+		script.Parent.Text = fps .." FPS"
+		fps = 0
+	end
+end
+coroutine.wrap(NAMFS_fake_script)()
